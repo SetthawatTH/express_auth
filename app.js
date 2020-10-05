@@ -13,7 +13,8 @@ const tripRouter = require("./api/router/tripRouter");
 
 
 //connect Mongodb
-mongoose.connect('mongodb+srv://chamick7:'+process.env.DB_PASSWORD+'@tripseek.9ch8b.gcp.mongodb.net/tripseek_db?retryWrites=true&w=majority',{
+// add mongo_db atlas at #add_Mongo
+mongoose.connect('#add_Mongo',{
   useUnifiedTopology: true ,
   useNewUrlParser: true
 }).catch(err => {
